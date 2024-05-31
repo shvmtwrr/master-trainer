@@ -2,12 +2,13 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Full Page Embed</title>
+  <title>Master Trainer - Maths</title>
   <style>
     body, html {
       margin: 0;
       padding: 0;
       height: 100%;
+      width: 100%;
       overflow: hidden;
     }
     iframe {
@@ -17,6 +18,18 @@
       width: 100%;
       height: 100%;
       border: none;
+    }
+    @media (orientation: landscape) {
+      iframe {
+        width: 100vw;
+        height: 100vh;
+      }
+    }
+    @media (orientation: portrait) {
+      iframe {
+        width: 100vw;
+        height: 100vh;
+      }
     }
   </style>
 </head>
